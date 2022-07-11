@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "Kartavyag5",
   name: "Kartavya Gauswami",
   designation: "React Developer",
-  avatarUrl: "/avatar.png",
+  avatarUrl: "/avatar.jpg",
   email: "kartavyag5@gmail.com",
   phone: "+91 7874792504",
   address: "Dahod, Gujarat, India.",
