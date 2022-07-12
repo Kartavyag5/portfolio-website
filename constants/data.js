@@ -8,14 +8,14 @@ const userData = {
   address: "Dahod, Gujarat, India.",
   projects: [
     {
-      title: "",
+      title: "Ecom Web",
       link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      imgUrl: "/Ecomweb.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "Innerbody Research",
+      link: "https://www.innerbody.com/health-products-services#hearing",
+      imgUrl: "/innerbody.png",
     },
     {
       title: "Portfolio",

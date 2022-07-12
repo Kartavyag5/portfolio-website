@@ -5,11 +5,11 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left transform hover:scale-110 hover:-rotate-3 transition duration-300 hover: text-4xl rounded-md px-2 py-1 hover:text-red-300" style={{paddingTop:80, zIndex:2}}>
           Contact
         </h1>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -20,7 +20,7 @@ export default function Contact() {
                 Fill in the details and I'll get back to you as soon as I can.
               </p>
             </header>
-            <div className="icons-container inline-flex flex-col my-20">
+            <div className="icons-container inline-flex flex-col my-10">
               <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,11 +73,11 @@ export default function Contact() {
             <div className="social-icons flex flex-row space-x-8">
               <a
                 href={userData.socialLinks.facebook}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="h-20 w-20 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
-                  width="24"
-                  height="24"
+                  width="40"
+                  height="40"
                   className="text-gray-50"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -91,11 +91,11 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.twitter}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="h-20 w-20 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
-                  width="24"
-                  height="24"
+                  width="40"
+                  height="40"
                   className="text-gray-50"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -111,11 +111,11 @@ export default function Contact() {
               </a>
               <a
                 href={userData.socialLinks.instagram}
-                className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
+                className="h-20 w-20 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
                 <svg
-                  width="24"
-                  height="24"
+                  width="40"
+                  height="40"
                   className="text-gray-50"
                   viewBox="0 0 24 24"
                   fill="none"

@@ -12,10 +12,10 @@ export default function LatestCode({ repositories }) {
     setRepos(repositories);
   }, []);
   return (
-    <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-[#F1F1F1] my-10 dark:bg-gray-900">
+      <div className="max-w-6xl mx-auto my-10">
         <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center lg:text-left">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white text-center lg:text-left transform hover:scale-110 hover:-rotate-3 transition duration-300 hover: text-4xl rounded-md px-2 py-1  hover:text-red-300">
             Latest Code
           </h1>
 

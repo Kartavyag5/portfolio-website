@@ -6,7 +6,7 @@ export default function FavouriteProjects() {
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold mx-10 md:my-0 text-center inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover: text-4xl rounded-md px-2 pb-10  hover:text-red-300">
             Favourite Projects
           </h1>
           <Link href="/projects">
@@ -35,19 +35,20 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://tailwindmasterkit.com"
+            href="https://www.innerbody.com/health-products-services#hearing"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/tmk.jpg"
-                alt="portfolio"
+                src="Ecomweb.png"
+                alt="Ecomweb"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
+                style={{border:'0px', borderRedius:20}}
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                Tailwind Master Kit
+              Ecom Web
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 font-bold text-xl">
                 01
               </h1>
             </div>
@@ -60,14 +61,14 @@ export default function FavouriteProjects() {
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
               <img
-                src="/placeholdertech.png"
-                alt="portfolio"
+                src="innerbody.png"
+                alt="innerbody research"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                PlaceholderTech
+                Innerbody Research Web
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 font-bold text-xl">
                 02
               </h1>
             </div>

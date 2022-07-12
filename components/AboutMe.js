@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left transform hover:scale-110 hover:-rotate-3 transition duration-300 hover: text-4xl rounded-md px-2 py-1 hover:text-red-300" style={{paddingTop:100}}>
           About Me.
         </h1>
       </div>
@@ -45,16 +45,17 @@ export default function AboutMe() {
               </p>
             </div>
             <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-white">
                 Job Opportunities
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300 ">
                 I'm looking for a job currently, If you see me as a good fit,
                 check my{" "}
                 <a
+                
                   href={userData.resumeUrl}
                   target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  className="border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-white bg-red-500 rounded-md px-2 py-1 text-white inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300"
                 >
                   CV
                 </a>{" "}
@@ -145,43 +146,51 @@ export default function AboutMe() {
             <div className="flex flex-row flex-wrap mt-8">
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                className="h-20 w-20 mx-4 my-4"
+                className="h-20 w-20 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="/python.png"
-                className="h-20 w-21 mx-4 my-4"
+                className="h-20 w-21 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
                 src="/django.png"
-                className="h-20 w-21 mx-4 my-4"
+                className="h-20 w-21 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
               />
               <img
-                src="/flask.png"
-                className="h-20 w-21 mx-4 my-4"
+                src="/flask3.png"
+                className="h-20 w-21 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
+              />
+              <img
+                src="/drf2.png"
+                className="h-20 w-21 my-4 transform hover:scale-125 transition duration-1500 ease-out"
+              />
+              <img
+                src="nextjs.svg"
+                className="h-20 w-21 mx-3 my-4 transform hover:scale-125 transition duration-1500 ease-out dark:color-white"
               />
             </div>
           </div>

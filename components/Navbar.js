@@ -15,30 +15,30 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
-      <div className="flex  md:flex-row justify-between items-center">
+    <div className="max-w-6xl  mx-auto px-4 py-3 md:py-15 zIndex:0 dark:bg-black">
+      <div className="flex  md:flex-row justify-between items-center dark:bg-black">
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="font-semibold text-xl dark:text-gray-100">
+              <h1 className="font-semibold text-4xl font-mono text-xl dark:text-gray-100">
                 {userData.name}
               </h1>
-              <p className="text-base font-light text-gray-500 dark:text-gray-300">
+              <p className="text-base font-light font-mono text-gray-500 dark:text-gray-300">
                 {userData.designation}
               </p>
             </a>
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
+        <div className="space-x-8 hidden md:block ">
           <Link href="/about">
             <a
               className={`text-base  ${
                 router.asPath === "/about"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                ? "text-gray-800 font-bold dark:text-white inline-block transform scale-110 rotate-3 transition duration-300 bg-blue-500 text-4xl rounded-md px-2 py-1  text-gray-50"
+                : "text-gray-600 dark:text-gray-300 font-normal inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
               }`}
             >
               About{" "}
@@ -63,8 +63,8 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/projects"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  ? "text-gray-800 font-bold dark:text-white inline-block transform scale-110 rotate-3 transition duration-300 bg-blue-500 text-4xl rounded-md px-2 py-1  text-gray-50"
+                  : "text-gray-600 dark:text-gray-300 font-normal inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
               }`}
             >
               Projects
@@ -89,8 +89,8 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/experience"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  ? "text-gray-800 font-bold dark:text-white inline-block transform scale-110 rotate-3 transition duration-300 bg-blue-500 text-4xl rounded-md px-2 py-1 text-gray-50"
+                  : "text-gray-600 dark:text-gray-300 font-normal inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
               }`}
             >
               Experience{" "}
@@ -115,8 +115,8 @@ export default function Navbar() {
             <a
               className={`text-base  ${
                 router.asPath === "/contact"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  ? "text-gray-800 font-bold dark:text-white inline-block transform scale-110 rotate-3 transition duration-300 bg-blue-500 text-4xl rounded-md px-2 py-1  text-gray-50"
+                  : "text-gray-600 dark:text-gray-300 font-normal inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
               }`}
             >
               Contact
