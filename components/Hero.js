@@ -30,8 +30,8 @@ export default function Hero() {
       </div>
       {/* Image container */}
       <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20 " >
-        <div className="w-3/4 " style={{border: '0px solid black', borderRadius: '10px !important'}} >
-          <img src={userData.avatarUrl} alt="avatar" className="shadow w-100 h-100 transform hover:scale-105 transition duration-1800 ease-out" style={{border: '0px solid black',borderRadius: '15px !important', boxShadow:'0px 0px 10px 3px', maxWidth:300, marginTop:20, hover:{background:"red"}}}/>
+        <div className="w-3/4 " style={{border: '0px solid black', borderRadius: '50px !important'}} >
+          <img src={userData.avatarUrl} alt="avatar" className="shadow w-100 h-100 transform hover:scale-105 transition duration-1800 ease-out" style={{border: '0px solid black',borderRadius: '50px !important', boxShadow:'0px 0px 10px 3px', maxWidth:300, marginTop:20, hover:{background:"red"}}}/>
           <div className="flex flex-row justify-between mt-4">
             <div className="flex flex-row space-x-4 transform hover:scale-125 transition duration-2000 ease-out">
               <svg

@@ -5,14 +5,14 @@ export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left transform hover:scale-110 hover:-rotate-3 transition duration-300 hover: text-4xl rounded-md px-2 py-1 hover:text-red-300" style={{paddingTop:100}}>
+        <h1 className="text-7xl md:text-9xl font-bold py-20 text-center md:text-left transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:rounded-md px-2 py-1 hover:text-red-300" style={{paddingTop:100}}>
           About Me.
         </h1>
       </div>
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="leading-loose text-2xl md:text-4xl font-semibold mx-4"
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}. Currently working on{" "}
@@ -182,15 +182,15 @@ export default function AboutMe() {
               />
               <img
                 src="/flask3.png"
-                className="h-20 w-21 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out"
+                className="h-20 w-21 mx-4 my-4 transform hover:scale-125 transition duration-1500 ease-out dark:bg-white"
               />
               <img
                 src="/drf2.png"
-                className="h-20 w-21 my-4 transform hover:scale-125 transition duration-1500 ease-out"
+                className="h-20 w-21 my-4 transform hover:scale-125 transition duration-1500 ease-out dark:bg-white"
               />
               <img
                 src="nextjs.svg"
-                className="h-20 w-21 mx-3 my-4 transform hover:scale-125 transition duration-1500 ease-out dark:color-white"
+                className="h-20 w-21 mx-3 my-4 transform hover:scale-125 transition duration-1500 ease-out dark:bg-white"
               />
             </div>
           </div>

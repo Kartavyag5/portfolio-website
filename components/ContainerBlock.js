@@ -43,11 +43,12 @@ export default function ContainerBlock({ children, ...customMeta }) {
         )}
       </Head>
       <div
+      className="bg-white dark:bg-black"
         style={{
           position: "fixed",
-          zIndex: "2",
+          zIndex: "10",
           width: "100%",
-          backgroundColor: "#f7f7f7",
+          // backgroundColor: "#f7f7f7",
         }}
       >
         <Navbar />
